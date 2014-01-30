@@ -1,13 +1,31 @@
 body {
     margin:0;
+    background-color: #D1DFDF;
 }
 
 ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
     li {
+    	float: left;
         a {
             display:block;
-            color: #CCC;
+            color: #000;
+            text-transform: uppercase;
             text-decoration:none;
+            height: 40px;
+            background: linear-gradient(top, #4C7DFF, #4CB0FF);
+            //border:solid thin #4C56FF;
+            text-decoration: none;
+            padding: 5px 25px;
+            padding-top: 20px;
+
+
+            &:hover {
+            	background: linear-gradient(top, #4C7DFF, #4C56FF);
+            	//border-bottom: solid thin #CCC;
+            }
         }
     }
 }
