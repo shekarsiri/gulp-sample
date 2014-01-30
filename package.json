@@ -1,9 +1,19 @@
 {
-  "devDependencies": {
-    "gulp": "~3.5.0",
-    "gulp-less": "~1.2.0",
-    "gulp-notify": "~0.4.0",
-    "gulp-minify-css": "~0.2.0",
-    "gulp-autoprefixer": "0.0.5"
-  }
+	"name": "gulp-sample",
+	"description": "Gulp sample setup.",
+	"version": "1.0.0",
+	"homepage": "http://github.com/shekarsiri",
+	"repository": "git://github.com/shekarsiri/gulp-sample.git",
+	"author": "Shekar Siri <sshekarsiri@gmail.com>",
+	"keywords": [
+	"gulp sample",
+	"gulp less"
+	],
+	"devDependencies": {
+		"gulp": "~3.5.0",
+		"gulp-autoprefixer": "0.0.5",
+		"gulp-less": "~1.2.0",
+		"gulp-minify-css": "~0.2.0",
+		"gulp-notify": "~0.4.0"
+	}
 }
